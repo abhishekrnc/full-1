@@ -7,22 +7,27 @@
     <title>Sign In Page</title>
 </head>
 <body>
-    <div class="center">
-        <h1>Sign In</h1>
-        <form>
-            <div class="text-field">
-                <input type="text" required>
-                <label>Username/Email</label>
+    <div class="container">
+        <div class="title">Sign In Here</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Username/Email</span>
+                    <input type="text" placeholder="Please Enter your Username or Email" required>
+                </div>
+                
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Please Enter your Password" required>
+                </div>
+                
+                
             </div>
-            <div class="text-field">
-                <input type="password" required>
-                <label>Password</label>
+            <div class="button">
+                <input type="submit" value="Login Here">
             </div>
-            <div class="pass">Forgot Password?</div>
-            <input type="submit" value="login">
-            <div class="signup-link">
-                Register Now <a href="/src/app/registraion/registraion.component.html">Sign Up Here</a>
-            </div>
+
+            <div class="details">Not a Member? <a href="/src/app/registraion/registraion.component.html">Register Here</a></div>
         </form>
     </div>
 </body>
