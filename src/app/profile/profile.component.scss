@@ -14,3 +14,62 @@ nav {
     text-align: center;
     padding: 15px 30px;
 }
+
+nav .icon {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+    cursor: pointer;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+
+nav ol li {
+    margin: 0 5px;
+    font-size: 38px;
+    color: #3d3d3d;
+}
+
+nav ol li a{
+    color: #696969;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+nav .search-box {
+    display: flex;
+    margin: aut 0;
+    height: 35px;
+    line-height: 32px;
+}
+
+nav .search-box input {
+    border: none;
+    outline: none;
+    background: #d6d6d6;
+    border-radius: 0 8px 8px 0;
+    height: 100%;
+    width: 500px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+nav .search-box span {
+    color: #3d3d3d;
+    font-size: 20px;
+    background: #d6d6d6;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
